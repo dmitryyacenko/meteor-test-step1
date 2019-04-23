@@ -1,0 +1,10 @@
+section.land h2{
+    font-size: 80px;
+}
+section.land h3{
+    font-size: 30px;
+}
+section.land h3 a{
+    color: #369de4;
+    text-decoration: none;
+}

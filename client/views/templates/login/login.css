@@ -1,0 +1,50 @@
+section.land form.login-form{
+    padding: 30px;
+    width: 30%;
+    font-weight: 300;
+    background-color: rgba(0,0,0, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+section.land form.login-form h2{
+    font-family: "Open Sans",sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+section.land form.login-form input{
+    width: 100%;
+    border: 1px solid #888;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background: none;
+    color: #fff;
+}
+
+section.land form.login-form input:active, section.land form.login-form input:focus{
+    outline: none;
+}
+
+section.land form .form-actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.land form button{
+    cursor: pointer;
+    border: 1px solid #888;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background: none;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+section.land form button:hover{
+    background: rgba(255,255,255,1);
+    color:#000;
+}
